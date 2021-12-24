@@ -178,6 +178,8 @@ syn keyword apacheDeclaration VirtualDocumentRoot VirtualDocumentRootIP VirtualS
 syn keyword apacheDeclaration ProxyFCGIBackendType ProxyFCGISetEnvIf
 syn keyword apacheOption FPM GENERIC
 syn keyword apacheDeclaration ProxySCGIInternalRedirect ProxySCGISendfile
+syn keyword apacheDeclaration ProxyExpressDBMFile ProxyExpressDBMType ProxyExpressEnable
+
 
 " Define the default highlighting
 
