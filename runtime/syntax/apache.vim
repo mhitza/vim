@@ -177,6 +177,7 @@ syn match apacheSection "<\/\=\(<IfVersion\)[^>]*>" contains=apacheAnything
 syn keyword apacheDeclaration VirtualDocumentRoot VirtualDocumentRootIP VirtualScriptAlias VirtualScriptAliasIP
 syn keyword apacheDeclaration ProxyFCGIBackendType ProxyFCGISetEnvIf
 syn keyword apacheOption FPM GENERIC
+syn keyword apacheDeclaration ProxySCGIInternalRedirect ProxySCGISendfile
 
 " Define the default highlighting
 
