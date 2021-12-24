@@ -180,6 +180,7 @@ syn keyword apacheOption FPM GENERIC
 syn keyword apacheDeclaration ProxySCGIInternalRedirect ProxySCGISendfile
 syn keyword apacheDeclaration ProxyExpressDBMFile ProxyExpressDBMType ProxyExpressEnable
 syn keyword apacheDeclaration RemoteIPHeader RemoteIPInternalProxy RemoteIPInternalProxyList RemoteIPProxiesHeader RemoteIPProxyProtocol RemoteIPProxyProtocolExceptions RemoteIPTrustedProxy RemoteIPTrustedProxyList
+syn keyword apacheDeclaration HeartbeatListen HeartbeatMaxServers HeartbeatStorage
 
 
 " Define the default highlighting
