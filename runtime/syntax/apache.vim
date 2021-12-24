@@ -193,6 +193,7 @@ syn keyword apacheDeclaration KeptBodySize
 syn keyword apacheDeclaration ReflectorHeader
 syn keyword apacheDeclaration xml2EncAlias xml2EncDefault xml2StartParse
 syn keyword apacheDeclaration UndefMacro Use
+syn keyword apacheDeclaration ProxyWebsocketFallbackToProxyHttp
 
 
 " Define the default highlighting
