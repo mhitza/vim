@@ -45,7 +45,7 @@ syn keyword apacheMethodOption GET POST PUT DELETE CONNECT OPTIONS TRACE PATCH P
 " Added as suggested by Mikko Koivunalho
 syn keyword apacheMethodOption BASELINE-CONTROL CHECKIN CHECKOUT LABEL MERGE MKACTIVITY MKWORKSPACE REPORT UNCHECKOUT UPDATE VERSION-CONTROL contained
 syn case ignore
-syn match apacheSection "<\/\=\(Directory\|DirectoryMatch\|Files\|FilesMatch\|IfModule\|IfDefine\|Location\|LocationMatch\|VirtualHost\|If\|IfDirective\|IfFile\|IfSection\|Else\|ElseIf\)[^>]*>" contains=apacheAnything
+syn match apacheSection "<\/\=\(Directory\|DirectoryMatch\|Files\|FilesMatch\|IfModule\|IfDefine\|Location\|LocationMatch\|VirtualHost\|If\|IfDirective\|IfFile\|IfSection\|Else\|ElseIf\|Macro\)[^>]*>" contains=apacheAnything
 syn match apacheLimitSection "<\/\=\(Limit\|LimitExcept\)[^>]*>" contains=apacheLimitSectionKeyword,apacheMethodOption,apacheError
 syn keyword apacheLimitSectionKeyword Limit LimitExcept contained
 syn match apacheAuthType "AuthType\s.*$" contains=apacheAuthTypeValue
@@ -192,6 +192,7 @@ syn keyword apacheDeclaration BufferSize
 syn keyword apacheDeclaration KeptBodySize
 syn keyword apacheDeclaration ReflectorHeader
 syn keyword apacheDeclaration xml2EncAlias xml2EncDefault xml2StartParse
+syn keyword apacheDeclaration UndefMacro Use
 
 
 " Define the default highlighting
