@@ -191,6 +191,7 @@ syn keyword apacheDeclaration LogMessage
 syn keyword apacheDeclaration BufferSize
 syn keyword apacheDeclaration KeptBodySize
 syn keyword apacheDeclaration ReflectorHeader
+syn keyword apacheDeclaration xml2EncAlias xml2EncDefault xml2StartParse
 
 
 " Define the default highlighting
