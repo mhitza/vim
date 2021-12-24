@@ -190,6 +190,7 @@ syn keyword apacheDeclaration LuaAuthzProvider LuaCodeCache LuaHookAccessChecker
 syn keyword apacheDeclaration LogMessage
 syn keyword apacheDeclaration BufferSize
 syn keyword apacheDeclaration KeptBodySize
+syn keyword apacheDeclaration ReflectorHeader
 
 
 " Define the default highlighting
