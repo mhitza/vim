@@ -187,6 +187,7 @@ syn keyword apacheDeclaration AuthFormAuthoritative AuthFormBody AuthFormDisable
 syn keyword apacheDeclaration Session SessionEnv SessionExclude SessionExpiryUpdateInterval SessionHeader SessionInclude SessionMaxAge
 syn keyword apacheDeclaration AllowMethods
 syn keyword apacheDeclaration LuaAuthzProvider LuaCodeCache LuaHookAccessChecker LuaHookAuthChecker LuaHookCheckUserID LuaHookFixups LuaHookInsertFilter LuaHookLog LuaHookMapToStorage LuaHookPreTranslate LuaHookTranslateName LuaHookTypeChecker LuaInherit LuaInputFilter LuaMapHandler LuaOutputFilter LuaPackageCPath LuaPackagePath LuaQuickHandler LuaRoot LuaScope
+syn keyword apacheDeclaration LogMessage
 
 
 " Define the default highlighting
