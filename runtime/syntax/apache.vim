@@ -105,7 +105,7 @@ syn keyword apacheOption DebugLevel ImplicitAdd NoImplicitAdd
 syn keyword apacheDeclaration Dav DavDepthInfinity DavMinTimeout
 syn keyword apacheDeclaration DavLockDB
 syn keyword apacheDeclaration DavGenericLockDB
-syn keyword apacheDeclaration DBDExptime DBDKeep DBDMax DBDMin DBDParams DBDPersist DBDPrepareSQL DBDriver
+syn keyword apacheDeclaration DBDExptime DBDKeep DBDMax DBDMin DBDParams DBDPersist DBDPrepareSQL DBDriver DBDInitSQL
 syn keyword apacheDeclaration DeflateCompressionLevel DeflateBufferSize DeflateFilterNote DeflateMemLevel DeflateWindowSize
 syn keyword apacheDeclaration DirectoryIndex DirectorySlash
 syn keyword apacheDeclaration CacheExpiryCheck CacheGcClean CacheGcDaily CacheGcInterval CacheGcMemUsage CacheGcUnused CacheSize CacheTimeMargin
