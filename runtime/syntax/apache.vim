@@ -195,6 +195,7 @@ syn keyword apacheDeclaration xml2EncAlias xml2EncDefault xml2StartParse
 syn keyword apacheDeclaration UndefMacro Use
 syn keyword apacheDeclaration ProxyWebsocketFallbackToProxyHttp
 syn keyword apacheDeclaration AuthnzFcgiCheckAuthnProvider AuthnzFcgiDefineProvider
+syn keyword apacheDeclaration H2CopyFiles H2Direct H2EarlyHints H2MaxSessionStreams H2MaxWorkerIdleSeconds H2MaxWorkers H2MinWorkers H2ModernTLSOnly H2OutputBuffering H2Padding H2Push H2PushDiarySize H2PushPriority H2PushResource H2SerializeHeaders H2StreamMaxMemSize H2TLSCoolDownSecs H2TLSWarmUpSize H2Upgrade H2WindowSize
 
 
 " Define the default highlighting
