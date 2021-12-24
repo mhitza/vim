@@ -45,7 +45,7 @@ syn keyword apacheMethodOption GET POST PUT DELETE CONNECT OPTIONS TRACE PATCH P
 " Added as suggested by Mikko Koivunalho
 syn keyword apacheMethodOption BASELINE-CONTROL CHECKIN CHECKOUT LABEL MERGE MKACTIVITY MKWORKSPACE REPORT UNCHECKOUT UPDATE VERSION-CONTROL contained
 syn case ignore
-syn match apacheSection "<\/\=\(Directory\|DirectoryMatch\|Files\|FilesMatch\|IfModule\|IfDefine\|Location\|LocationMatch\|VirtualHost\|If\|IfDirective\|IfFile\|IfSection\|Else\|ElseIf\|Macro\)[^>]*>" contains=apacheAnything
+syn match apacheSection "<\/\=\(Directory\|DirectoryMatch\|Files\|FilesMatch\|IfModule\|IfDefine\|Location\|LocationMatch\|VirtualHost\|If\|IfDirective\|IfFile\|IfSection\|Else\|ElseIf\|Macro\|MDomainSet\)[^>]*>" contains=apacheAnything
 syn match apacheLimitSection "<\/\=\(Limit\|LimitExcept\)[^>]*>" contains=apacheLimitSectionKeyword,apacheMethodOption,apacheError
 syn keyword apacheLimitSectionKeyword Limit LimitExcept contained
 syn match apacheAuthType "AuthType\s.*$" contains=apacheAuthTypeValue
@@ -198,6 +198,7 @@ syn keyword apacheDeclaration AuthnzFcgiCheckAuthnProvider AuthnzFcgiDefineProvi
 syn keyword apacheDeclaration H2CopyFiles H2Direct H2EarlyHints H2MaxSessionStreams H2MaxWorkerIdleSeconds H2MaxWorkers H2MinWorkers H2ModernTLSOnly H2OutputBuffering H2Padding H2Push H2PushDiarySize H2PushPriority H2PushResource H2SerializeHeaders H2StreamMaxMemSize H2TLSCoolDownSecs H2TLSWarmUpSize H2Upgrade H2WindowSize
 syn keyword apacheDeclaration ProxyHCExpr ProxyHCTemplate ProxyHCTPsize
 syn keyword apacheDeclaration BrotliAlterETag BrotliCompressionMaxInputBlock BrotliCompressionQuality BrotliCompressionWindow BrotliFilterNote
+syn keyword apacheDeclaration MDActivationDelay MDBaseServer MDCAChallenges MDCertificateAgreement MDCertificateAuthority MDCertificateCheck MDCertificateFile MDCertificateKeyFile MDCertificateMonitor MDCertificateProtocol MDCertificateStatus MDChallengeDns01 MDContactEmail MDDriveMode MDExternalAccountBinding MDHttpProxy MDMember MDMembers MDMessageCmd MDMustStaple MDNotifyCmd MDomain MDPortMap MDPrivateKeys MDRenewMode MDRenewWindow MDRequireHttps MDServerStatus MDStapleOthers MDStapling MDStaplingKeepResponse MDStaplingRenewWindow MDStoreDir MDWarnWindow
 
 
 " Define the default highlighting
