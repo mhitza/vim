@@ -64,7 +64,7 @@ syn keyword apacheDeclaration Action Script
 syn keyword apacheDeclaration Alias AliasMatch Redirect RedirectMatch RedirectTemp RedirectPermanent ScriptAlias ScriptAliasMatch
 syn keyword apacheOption permanent temp seeother gone
 syn keyword apacheDeclaration AuthAuthoritative AuthGroupFile AuthUserFile
-syn keyword apacheDeclaration AuthBasicAuthoritative AuthBasicProvider
+syn keyword apacheDeclaration AuthBasicAuthoritative AuthBasicProvider AuthBasicFake AuthBasicUseDigestAlgorithm
 syn keyword apacheDeclaration AuthDigestAlgorithm AuthDigestDomain AuthDigestNcCheck AuthDigestNonceFormat AuthDigestNonceLifetime AuthDigestProvider AuthDigestQop AuthDigestShmemSize
 syn keyword apacheOption none auth auth-int MD5 MD5-sess
 syn match apacheSection "<\/\=\(<AuthnProviderAlias\)[^>]*>" contains=apacheAnything
