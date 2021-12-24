@@ -119,7 +119,7 @@ syn keyword apacheDeclaration ExtFilterDefine ExtFilterOptions
 syn keyword apacheOption PreservesContentLength DebugLevel LogStderr NoLogStderr
 syn match apacheOption "\<\(cmd\|mode\|intype\|outtype\|ftype\|disableenv\|enableenv\)\ze="
 syn keyword apacheDeclaration CacheFile MMapFile
-syn keyword apacheDeclaration FilterChain FilterDeclare FilterProtocol FilterProvider FilterTrace
+syn keyword apacheDeclaration FilterChain FilterDeclare FilterProtocol FilterProvider FilterTrace AddOutputFilterByType
 syn keyword apacheDeclaration Header
 syn keyword apacheDeclaration RequestHeader
 syn keyword apacheOption set unset append add
