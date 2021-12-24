@@ -189,6 +189,7 @@ syn keyword apacheDeclaration AllowMethods
 syn keyword apacheDeclaration LuaAuthzProvider LuaCodeCache LuaHookAccessChecker LuaHookAuthChecker LuaHookCheckUserID LuaHookFixups LuaHookInsertFilter LuaHookLog LuaHookMapToStorage LuaHookPreTranslate LuaHookTranslateName LuaHookTypeChecker LuaInherit LuaInputFilter LuaMapHandler LuaOutputFilter LuaPackageCPath LuaPackagePath LuaQuickHandler LuaRoot LuaScope
 syn keyword apacheDeclaration LogMessage
 syn keyword apacheDeclaration BufferSize
+syn keyword apacheDeclaration KeptBodySize
 
 
 " Define the default highlighting
