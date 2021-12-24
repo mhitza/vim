@@ -30,7 +30,7 @@ syn region apacheString start=+"+ end=+"+ skip=+\\\\\|\\\"+ oneline
 syn match apacheSkipQuote +\\"+
 
 " Core and mpm
-syn keyword apacheDeclaration AccessFileName AddDefaultCharset AllowOverride AuthName AuthType ContentDigest DefaultType DocumentRoot ErrorDocument ErrorLog HostNameLookups IdentityCheck Include KeepAlive KeepAliveTimeout LimitRequestBody LimitRequestFields LimitRequestFieldsize LimitRequestLine LogLevel MaxKeepAliveRequests NameVirtualHost Options Require RLimitCPU RLimitMEM RLimitNPROC Satisfy ScriptInterpreterSource ServerAdmin ServerAlias ServerName ServerPath ServerRoot ServerSignature ServerTokens TimeOut UseCanonicalName
+syn keyword apacheDeclaration AccessFileName AddDefaultCharset AllowOverride AuthName AuthType ContentDigest DefaultType DocumentRoot ErrorDocument ErrorLog HostNameLookups IdentityCheck Include KeepAlive KeepAliveTimeout LimitRequestBody LimitRequestFields LimitRequestFieldsize LimitRequestLine LogLevel MaxKeepAliveRequests NameVirtualHost Options Require RLimitCPU RLimitMEM RLimitNPROC Satisfy ScriptInterpreterSource ServerAdmin ServerAlias ServerName ServerPath ServerRoot ServerSignature ServerTokens TimeOut UseCanonicalName MaxRangeOverlaps MaxRangeReversals MaxRanges MergeSlashes MergeTrailers Mutex Protocol Protocols ProtocolsHonorOrder QualifyRedirectURL ReadBufferSize RegexDefaultOptions RegisterHttpMethod SeeRequestTail StrictHostCheck UnDefine UseCanonicalPhysicalPort AllowOverrideList CGIPassAuth CGIVar DefaultRuntimeDir Define Error ErrorLogFormat FlushMaxPipelined FlushMaxThreshold GprofDir HostnameLookups HttpProtocolOptions
 syn keyword apacheDeclaration AcceptPathInfo CGIMapExtension EnableMMAP FileETag ForceType LimitXMLRequestBody SetHandler SetInputFilter SetOutputFilter
 syn keyword apacheDeclaration AcceptFilter AllowEncodedSlashes EnableSendfile LimitInternalRecursion TraceEnable
 syn keyword apacheOption INode MTime Size
@@ -45,7 +45,7 @@ syn keyword apacheMethodOption GET POST PUT DELETE CONNECT OPTIONS TRACE PATCH P
 " Added as suggested by Mikko Koivunalho
 syn keyword apacheMethodOption BASELINE-CONTROL CHECKIN CHECKOUT LABEL MERGE MKACTIVITY MKWORKSPACE REPORT UNCHECKOUT UPDATE VERSION-CONTROL contained
 syn case ignore
-syn match apacheSection "<\/\=\(Directory\|DirectoryMatch\|Files\|FilesMatch\|IfModule\|IfDefine\|Location\|LocationMatch\|VirtualHost\)[^>]*>" contains=apacheAnything
+syn match apacheSection "<\/\=\(Directory\|DirectoryMatch\|Files\|FilesMatch\|IfModule\|IfDefine\|Location\|LocationMatch\|VirtualHost\|If\|IfDirective\|IfFile\|IfSection\|Else\|ElseIf\)[^>]*>" contains=apacheAnything
 syn match apacheLimitSection "<\/\=\(Limit\|LimitExcept\)[^>]*>" contains=apacheLimitSectionKeyword,apacheMethodOption,apacheError
 syn keyword apacheLimitSectionKeyword Limit LimitExcept contained
 syn match apacheAuthType "AuthType\s.*$" contains=apacheAuthTypeValue
