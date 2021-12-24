@@ -175,6 +175,8 @@ syn keyword apacheDeclaration CookieDomain CookieExpires CookieName CookieStyle 
 syn keyword apacheOption Netscape Cookie Cookie2 RFC2109 RFC2965
 syn match apacheSection "<\/\=\(<IfVersion\)[^>]*>" contains=apacheAnything
 syn keyword apacheDeclaration VirtualDocumentRoot VirtualDocumentRootIP VirtualScriptAlias VirtualScriptAliasIP
+syn keyword apacheDeclaration ProxyFCGIBackendType ProxyFCGISetEnvIf
+syn keyword apacheOption FPM GENERIC
 
 " Define the default highlighting
 
