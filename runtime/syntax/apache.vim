@@ -179,6 +179,7 @@ syn keyword apacheDeclaration ProxyFCGIBackendType ProxyFCGISetEnvIf
 syn keyword apacheOption FPM GENERIC
 syn keyword apacheDeclaration ProxySCGIInternalRedirect ProxySCGISendfile
 syn keyword apacheDeclaration ProxyExpressDBMFile ProxyExpressDBMType ProxyExpressEnable
+syn keyword apacheDeclaration RemoteIPHeader RemoteIPInternalProxy RemoteIPInternalProxyList RemoteIPProxiesHeader RemoteIPProxyProtocol RemoteIPProxyProtocolExceptions RemoteIPTrustedProxy RemoteIPTrustedProxyList
 
 
 " Define the default highlighting
